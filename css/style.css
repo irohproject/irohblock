@@ -56,3 +56,10 @@ display: block;
 	box-shadow: 0px 0px 21px rgba(235, 182, 187, 0.45);
 	backdrop-filter: blur(20px);
 }
+.details {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	flex-wrap: wrap;
+	
+}
