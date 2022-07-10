@@ -7,6 +7,9 @@ body {
 	background: -webkit-linear-gradient(206deg, #EBB6BB -4.62%, #C7D6F3 82.61%);
 	background: -moz-linear-gradient(206deg, #EBB6BB -4.62%, #C7D6F3 82.61%);
 }
+body {
+	font-family: Sans-serif;
+}
 /* ================================= */
 /* ==== config ======= */
 details summary::-webkit-details-marker {
