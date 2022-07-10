@@ -1,0 +1,47 @@
+/* ==== config ======= */
+details summary::-webkit-details-marker {
+display: none;
+}
+details :focus {
+  outline: 0;
+}
+/* Firefox */
+details, summary {
+display: block;
+}
+
+
+/*  details */
+.create_button {
+    width: 100%;
+    font-size: 1.8rem;
+    color: #fff;
+    border: none;
+    background: none;
+    margin: 1px 0px;
+    padding: 15px 0px;
+    text-transform: capitalize;
+
+}
+/* content */
+.create__block-img {
+	display: flex;
+	width: 50%;
+	align-items: center;
+	justify-content: center;
+
+}
+.create__block-picture {
+	width: 600px;
+	height: 344.33px;
+
+	position: relative;
+	overflow: hidden;
+	z-index: 2;
+
+	/*text-align: center;*/
+
+	background: rgba(255, 255, 255, 0.1);
+	box-shadow: 0px 0px 21px rgba(235, 182, 187, 0.45);
+	backdrop-filter: blur(20px);
+}
