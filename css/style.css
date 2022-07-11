@@ -1,9 +1,12 @@
-/*  ================================   */
-body, html {
+  	/*  ================================   */
+html, body	 {
 	font-size: 10px;
 }
 /*  ================================   */
-
+::selection {
+	color: #EEEEEE;
+	background-color: #fff;
+}
 /*  ================================   */
 body {
 	font-family: sans-serif !important;
@@ -13,6 +16,8 @@ body {
 	background: -ms-linear-gradient(206deg, #EBB6BB -4.62%, #C7D6F3 82.61%);
 	background: -webkit-linear-gradient(206deg, #EBB6BB -4.62%, #C7D6F3 82.61%);
 	background: -moz-linear-gradient(206deg, #EBB6BB -4.62%, #C7D6F3 82.61%);
+
+	height: 100vh;
 }
 /* ================================= */
 /* ==== config ======= */
@@ -69,3 +74,19 @@ display: block;
 	flex-wrap: wrap;
 	
 }
+.create__details__container {
+	width: 50%;
+}
+.create_button:nth-child(1) {
+    border-top: 1px solid #fff;
+
+}
+.create_button:nth-child(even) {
+	border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    padding: 20px 0px;
+}
+.create__button-text {
+	font-size: 1.6rem;
+}
+
